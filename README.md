@@ -10,6 +10,7 @@ cd lwan
 mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
+make    # Build lwan
 cd ../..
-make
+make    # Build our project
 ```
